@@ -1,0 +1,15 @@
+{
+  "name": "Alfonso's Skills",
+  "description": "Claude Code skills by alfonsomorab",
+  "skills": [
+    {
+      "name": "humanize-text-skill",
+      "description": "Rewrites AI-generated text to sound natural and human. Reduces AI detection scores from 100% down to under 10% using a two-pass rewrite process based on Wikipedia's Signs of AI Writing guide.",
+      "version": "1.0.0",
+      "author": "alfonsomorab",
+      "skill_url": "https://raw.githubusercontent.com/alfonsomorab/humanize-text-skill/main/humanize-text-skill/SKILL.md",
+      "repository": "https://github.com/alfonsomorab/humanize-text-skill",
+      "tags": ["writing", "humanize", "ai-detection", "content", "text"]
+    }
+  ]
+}

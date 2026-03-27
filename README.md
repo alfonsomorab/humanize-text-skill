@@ -34,11 +34,25 @@ Tested against an AI detector on three different text types (corporate strategy,
 
 ## Installation
 
+**Option 1 - Plugin marketplace (recommended)**
+
 ```bash
-claude skills install humanize-text-skill
+/plugin marketplace add https://raw.githubusercontent.com/alfonsomorab/humanize-text-skill/main/humanize-text-skill/marketplace.json
+/plugin install humanize-text-skill
 ```
 
-Or copy `SKILL.md` into your Claude Code skills directory.
+**Option 2 - Manual**
+
+Clone this repo and copy the `SKILL.md` into your Claude Code skills directory:
+
+```bash
+mkdir -p ~/.claude/skills/humanize-text-skill
+cp humanize-text-skill/SKILL.md ~/.claude/skills/humanize-text-skill/SKILL.md
+```
+
+**Option 3 - Download release asset**
+
+Download `humanize-text-skill.skill` from the [latest release](https://github.com/alfonsomorab/humanize-text-skill/releases/latest) and place it in `~/.claude/skills/`.
 
 ## Usage
 
