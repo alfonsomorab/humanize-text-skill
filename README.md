@@ -42,6 +42,12 @@ Run this inside Claude Code:
 /learn @alfonsomorab/humanize-text-skill
 ```
 
+Or just tell Claude:
+
+```
+Install the skill "humanize-text-skill" from https://agentskill.sh/@alfonsomorab/humanize-text-skill
+```
+
 **Option 2 - Manual**
 
 Clone this repo and copy the `SKILL.md` into your Claude Code skills directory:
