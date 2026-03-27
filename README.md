@@ -34,11 +34,12 @@ Tested against an AI detector on three different text types (corporate strategy,
 
 ## Installation
 
-**Option 1 - Plugin marketplace (recommended)**
+**Option 1 - agentskill.sh (recommended)**
 
-```bash
-/plugin marketplace add https://raw.githubusercontent.com/alfonsomorab/humanize-text-skill/main/humanize-text-skill/marketplace.json
-/plugin install humanize-text-skill
+Run this inside Claude Code:
+
+```
+/learn @alfonsomorab/humanize-text-skill
 ```
 
 **Option 2 - Manual**
